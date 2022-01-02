@@ -5,8 +5,11 @@ bypass WAF using dns history
 bash bypass-firewalls-by-DNS-history.sh -d example.com
 
 -d --domain: domain to bypass
+
 -o --outputfile: output file with IP's
+
 -l --listsubdomains: list with subdomains for extra coverage
+
 -a --checkall: Check all subdomains for a WAF bypass
 
 # Requirements (optional)
